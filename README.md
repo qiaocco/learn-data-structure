@@ -1,1 +1,5 @@
-# learn-data-structure
+# 学习数据结构和算法
+
+01目录里列出了基本的数据结构
+
+02目录是leetcode刷题记录
