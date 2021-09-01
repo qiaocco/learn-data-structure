@@ -1,35 +1,38 @@
-class Array:
-    def __init__(self, size=32):
-        self._size = size
-        self._items = [None] * self._size
+class ArrayTest:
+    def test(self):
+        # 创建
+        a = []
 
-    def __getitem__(self, index):
-        return self._items[index]
+        # 添加元素 O(1)
+        a.append("a")
+        a.append("b")
+        a.append("c")
 
-    def __setitem__(self, index, value):
-        self._items[index] = value
+        # insert O(n)
+        a.insert(0, "0")
 
-    def __len__(self):
-        return self._size
+        # 访问元素 O(1)
+        print(a[0])
 
-    def clear(self, value=None):
-        for i in range(len(self._items)):
-            self._items[i] = value
+        # 修改 O(1)
+        a[0] = "aaa"
+        print(a)
 
-    def __iter__(self):
-        for item in self._items:
-            yield item
+        # 删除O(n)
+        a.remove("a")
+        print(a)
+        # O(1)
+        a.pop()
+
+        # 遍历 O(n)
+        for item in a:
+            print(item)
+
+        # 查找 O(n)
+        a.index("b")
+
+        # 排序 O(NlogN)
+        a.sort()
 
 
-def test_array():
-    size = 10
-    a = Array(size)
-
-    a[0] = 1
-    assert a[0] == 1
-
-    a.clear()
-    assert a[0] is None
-
-
-test_array()
+ArrayTest().test()
