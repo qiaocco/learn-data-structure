@@ -2,20 +2,20 @@ from typing import List
 
 
 class Solution:
-    def searchInsert(self, nums: List[int], target:  int) -> int:
+    def searchInsert(self, nums: List[int], target: int) -> int:
         n = len(nums)
-        first = 0
-        last = n - 1
-        while first <= last:
-            mid = (first + last) // 2
+        left = 0
+        right = n - 1
+        while left <= right:
+            mid = (left + right) // 2
             if nums[mid] > target:
-                last = mid - 1
+                right = mid - 1
             elif nums[mid] < target:
-                first = mid + 1
+                left = mid + 1
             else:
                 return mid
 
-        return first
+        return left
 
 
 if __name__ == '__main__':
