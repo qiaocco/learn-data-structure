@@ -44,7 +44,7 @@
 #  👍 280 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 class Solution:
     def fib(self, n: int) -> int:
         # if n == 0:
@@ -59,6 +59,6 @@ class Solution:
         return dp[n]
 
 
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)
 
 # n = 2 {0: 0, 1: 1, 2: 1, 3: 2}

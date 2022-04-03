@@ -25,7 +25,7 @@
 #  👍 402 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 class Solution(object):
     def containsDuplicate(self, nums):
         """
@@ -38,4 +38,4 @@ class Solution(object):
                 return True
             d[item] = 1
         return False
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)

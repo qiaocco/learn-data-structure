@@ -44,7 +44,7 @@
 #  👍 259 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         d = dict()
@@ -55,4 +55,4 @@ class Solution:
             d[item] += 1
             if d[item] > 2:
                 return item
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)

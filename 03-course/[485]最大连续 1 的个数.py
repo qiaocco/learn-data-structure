@@ -22,7 +22,7 @@
 #  👍 240 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 class Solution(object):
     def findMaxConsecutiveOnes(self, nums):
         """
@@ -41,5 +41,5 @@ class Solution(object):
 
         res = max(count, res)
         return res
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)
 # 时间复杂度: O(N)

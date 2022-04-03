@@ -44,7 +44,7 @@
 #  👍 434 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 class Solution(object):
     def nextGreaterElement(self, nums1, nums2):
         """
@@ -65,5 +65,5 @@ class Solution(object):
             res.append(res_dict[j])
         return res
 
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)
 # https://leetcode-cn.com/problems/next-greater-element-i/solution/zhan-xia-yi-ge-geng-da-yuan-su-i-by-demi-cumj/

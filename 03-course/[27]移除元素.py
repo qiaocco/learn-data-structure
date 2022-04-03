@@ -58,7 +58,7 @@
 #  👍 934 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -74,4 +74,4 @@ class Solution(object):
 
         return len(nums[j:])
 
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)

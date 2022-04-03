@@ -43,7 +43,7 @@
 #  👍 86 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 import collections
 
 
@@ -65,7 +65,7 @@ class RecentCounter(object):
 # Your RecentCounter object will be instantiated and called as such:
 # obj = RecentCounter()
 # param_1 = obj.ping(t)
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)
 
 obj = RecentCounter()
 print(obj.ping(1))

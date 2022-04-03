@@ -15,7 +15,7 @@
 #  👍 1071 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 class Solution(object):
     def moveZeroes(self, nums):
         """
@@ -29,5 +29,5 @@ class Solution(object):
                 nums[i], nums[j] = nums[j], nums[i]
                 j += 1
 
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)
 # https://leetcode-cn.com/problems/move-zeroes/solution/dong-hua-yan-shi-283yi-dong-ling-by-wang_ni_ma/

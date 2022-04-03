@@ -55,7 +55,7 @@
 #  👍 2443 👎 0
 
 
-# leetcode submit region begin(Prohibit modification and deletion)
+# 分类 submit region begin(Prohibit modification and deletion)
 class Solution(object):
     def isValid(self, s):
         """
@@ -86,4 +86,4 @@ class Solution(object):
         if len(stack) == 0:
             return True
         return False
-# leetcode submit region end(Prohibit modification and deletion)
+# 分类 submit region end(Prohibit modification and deletion)
