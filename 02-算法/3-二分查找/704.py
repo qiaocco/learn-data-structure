@@ -16,5 +16,6 @@ class Solution:
                 return mid
         return -1
 
+
 if __name__ == '__main__':
     print(Solution().search([5], 5))
