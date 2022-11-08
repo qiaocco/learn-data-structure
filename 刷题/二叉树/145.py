@@ -1,5 +1,5 @@
 # Definition for a binary tree node.
-from typing import List
+from typing import List, Optional
 
 
 class TreeNode:
@@ -10,21 +10,21 @@ class TreeNode:
 
 
 class Solution:
-    def postorderTraversal(self, root: TreeNode) -> List[int]:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
             return []
 
-        res, stack = list(), list()
+        stack, res = [], []
         stack.append(root)
-
         while len(stack) > 0:
             cur = stack.pop()
             res.append(cur.val)
 
             if cur.left:
                 stack.append(cur.left)
-
             if cur.right:
                 stack.append(cur.right)
+
         res.reverse()
+
         return res
